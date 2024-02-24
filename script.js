@@ -20,7 +20,7 @@ function loadEdificiosUC() {
     });
     map.addSource('edificiosUCSource', {
         type: 'geojson',
-        data: 'edificiosUC.geojson'
+        data: 'data/edificiosUC.geojson'
     });
 
     map.addLayer({
@@ -56,7 +56,7 @@ function loadSalasUC() {
     if (!map.getSource('SalasUCSource')) {
         map.addSource('SalasUCSource', {
             type: 'geojson',
-            data: 'salasUC.geojson'
+            data: 'data/salasUC.geojson'
         });
     }
 
@@ -92,7 +92,7 @@ function loadAguasUC() {
     if (!map.getSource('AguasUCSource')) {
         map.addSource('AguasUCSource', {
             type: 'geojson',
-            data: 'aguasUC.geojson'
+            data: 'data/aguasUC.geojson'
         });
     }
 
@@ -100,7 +100,7 @@ function loadAguasUC() {
     if (!map.getLayer('aguasUCLayer')) {
         map.addLayer({
             id: 'aguasUCLayer',
-            type: 'circle', // Change type to 'circle' for point data
+            type: 'circle', // Change type to 'circle' for point 
             source: 'AguasUCSource',
             paint: {
                 'circle-radius': [
@@ -147,7 +147,7 @@ function loadComidaUC() {
     if (!map.getSource('ComidaUCSource')) {
         map.addSource('ComidaUCSource', {
             type: 'geojson',
-            data: 'comidaUC.geojson'
+            data: 'data/comidaUC.geojson'
         });
     }
 
@@ -214,7 +214,7 @@ function loadBañosUC() {
     if (!map.getSource('BañosUCSource')) {
         map.addSource('BañosUCSource', {
             type: 'geojson',
-            data: 'bañosUC.geojson'
+            data: 'data/bañosUC.geojson'
         });
     }
 
