@@ -3,7 +3,7 @@
 Este repositorio contiene el codigo de MapaUC
 
 
-[Visualizacion Aqui](https://ibgarrido.cl/vis/mapaUC/map.html)
+[Visualizacion Aqui](https://ibgarrido.cl/projects/mapaUC/map.html)
 
 
 ## Funcionamiento
